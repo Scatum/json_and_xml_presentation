@@ -40,6 +40,9 @@ public class StreamParser {
 
 
     public List<Feed> parseRssFeed(InputStream inputStream) {
+        if (inputStream == null){
+            return new ArrayList<>();
+        }
         String title = null;
         String link = null;
         String thumbnail = null;
@@ -132,6 +135,9 @@ public class StreamParser {
 
 
     public List<Feed> parseJsonFeed(InputStream inputStream) {
+        if (inputStream == null) {
+            return new ArrayList<>();
+        }
         String title = null;
         String link = null;
         String thumbnail = null;

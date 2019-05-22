@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Json and XML Reader</string>
+    <string name="app_name">Json and XML Presentation</string>
     <string name="now_button_text">Now</string>
     <string name="when_best_button_text">When Best</string>
     <string name="delete_button_label">Delete</string>
